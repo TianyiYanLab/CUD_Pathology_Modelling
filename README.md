@@ -32,13 +32,29 @@ The main analyses were carried out step-by-step using the codes as follows.
    
 8. **Generate the individualized CUD epicenter likelihood map with data-driven ranking-based method**: S8\_Individualized\_epicenter\_identification.ipynb;
    
-9. **Explore the multivariate associations between individual epicenters and behaviors**: S9\_PLS\_input\_preparation.m; S9\_Behavioral\_PLS\_analysis.ipynb.
+9. **Explore the multivariate associations between individual epicenters and behaviors**: S9\_PLS\_input\_preparation.m; S9\_Behavioral\_PLS\_analysis.ipynb;
+   
+10. **Susceptible-Infected-Removed (SIR) agent-based model**: S10\_SIR\_modelling.ipynb.
 
 
+
+### Open source tools
+
+1. Regional microarray expression data were preprocessed using a recommended pipeline with the abagen toolbox (https://abagen.readthedocs.io/en/stable/);
+2. The spin test was conducted with the neuromaps toolbox (nulls.alexander\_bloch, https://netneurolab.github.io/neuromaps/);
+3. The two rewired null models were generated seperately using a Matlab code package (https://www.brainnetworkslab.com/coderesources) and the randmio\_und\_connected function from the Brain Connectivity Toolbox (https://brainconn.readthedocs.io/en/latest/generated/brainconn.reference.randmio\_und\_connected.html#brainconn.reference.randmio\_und\_connected);
+4. Gene enrichment analysis was performed using Metascape (https://metascape.org/), an online platform for gene function annotation and enrichment analysis;
+5. Visualization was carried out with Connectome Workbench (https://www.humanconnectome.org/software/get-connectome-workbench).
 
 ### Data
 
-
+1. Subject lists;
+2. Cortical atrophy maps;
+3. Epicenter likelihood maps:
+4. PLS1 genes;
+5. Cell type-specific enrichment results;
+6. rTMS response maps;
+7. Behabioural PLS1 yloadings.
 
 
 
